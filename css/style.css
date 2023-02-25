@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010101;
+}
+
+header .logo{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    margin-left: 50px;
+    gap: 1em;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+header .logo p span{
+    font-weight: 300;
+    color: #616161;
+}
+
+nav{
+    margin: 4em;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 4.1em;
+    margin: 0;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #FEFEFE;
+    /* text-transform: uppercase; */
+    font-size: 1.4rem;
+}
+
+nav ul a.active:hover{
+    font-weight: 700;
+    
+}
+
+.header{
+    display: block;
+    text-align: center;
+    background-color: #010101;
+}
+
+.header img{
+    margin-bottom: 30px;
+}
+
+.header h2{
+    color: #FEFEFE;
+    font-size: 3.4em;
+}
+
+.header p{
+    color: #616161;
+    font-size: 1rem;
+}
+
+.main-section{
+    display: flex;
+    gap: 8em;
+    margin-top: 11em;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-col{
+    width: 45%; 
+}
+
+.details h3{
+    font-size: 2.8rem;
+    color: #121212;
+    font-weight: 900;
+    margin: 0;
+}
+
+.details p{
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    color: #616161;
+    letter-spacing: -5%;
+}
+
+.details span{
+    color: #121212;
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 48px;
+}
+
+.details h6{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    letter-spacing: -0.05em;
+    color: #212121;
+}
