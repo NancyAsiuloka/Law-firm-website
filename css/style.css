@@ -126,3 +126,41 @@ nav ul a.active:hover{
     letter-spacing: -0.05em;
     color: #212121;
 }
+
+.right-col{
+    position: relative;
+
+}
+
+.right-col .play{
+    position: absolute;
+    display: flex;
+    gap: 1em;
+    left: 8.33%;
+    bottom: 8.33%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.right-col .play div p{
+    color: #AEAEAE;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+
+}
+
+.cards{
+    background-color: #FFF4F1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.cards .card1 {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 5;
+}
