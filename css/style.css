@@ -96,6 +96,8 @@ nav ul a.active:hover{
     padding: 8px 15px;
 }
 
+
+/* main section */
 .main-section{
     display: flex;
     gap: 8em;
