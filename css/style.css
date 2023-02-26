@@ -82,6 +82,13 @@ nav ul a.active:hover{
     font-size: 1rem;
 }
 
+/* buttons */
+.btn{
+    background-color: #F1E201;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
 .main-section{
     display: flex;
     gap: 8em;
