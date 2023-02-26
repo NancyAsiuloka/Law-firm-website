@@ -96,11 +96,6 @@ nav ul a.active:hover{
     padding: 8px 15px;
 }
 
-.btn .btn1{
-    display: block;
-    margin-right: 40px;
-}
-
 .main-section{
     display: flex;
     gap: 8em;
