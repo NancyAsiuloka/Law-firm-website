@@ -85,12 +85,17 @@ nav ul a.active:hover{
 /* buttons */
 .btn{
     background-color: #F1E201;
-    font-size: 1.8rem;
+    font-size: 16px;
     font-weight: bold;
     color: #000;
     text-decoration: none;
     border-radius: 1.9em;
-    padding: 1em 2em;
+    padding: 8px 15px;
+}
+
+.btn .btn1{
+    display: block;
+    margin-right: 40px;
 }
 
 .main-section{
