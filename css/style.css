@@ -341,3 +341,9 @@ nav ul a.active:hover{
     color: #121212;
     margin-bottom: 30px;
 }
+
+/* Card Card Quotes */
+.card{
+    display: flex;
+    align-items: center;
+}
