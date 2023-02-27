@@ -346,4 +346,15 @@ nav ul a.active:hover{
 .card{
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.left-details{
+    background: #0A0A0A;
+    color: #fff;
+    width: 45%;
+    height: 200px;
+    box-sizing: border-box;
+
 }
