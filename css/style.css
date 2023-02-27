@@ -352,9 +352,33 @@ nav ul a.active:hover{
 
 .left-details{
     background: #0A0A0A;
-    color: #fff;
+    color: #FEFEFE;
     width: 45%;
-    height: 200px;
+    margin-left: -25%;
+    margin-bottom: 30px;
     box-sizing: border-box;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    padding: 30px 20px;
+}
 
+.left-details p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #808080;
+    margin: 20px auto;
+}
+
+.left-details svg{
+    background: #FEFEFE;
 }
