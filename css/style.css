@@ -328,3 +328,16 @@ nav ul a.active:hover{
     letter-spacing: -0.035em;
     color: #FEFEFE;
 }
+
+/* Text */
+.text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #121212;
+    margin-bottom: 30px;
+}
