@@ -13,6 +13,7 @@
 
 }
 
+/* Main header */
 header{
     display: flex;
     justify-content: space-between;
@@ -34,6 +35,8 @@ header .logo p span{
     font-weight: 300;
     color: #616161;
 }
+
+/* Nav */
 
 nav{
     margin: 4em;
