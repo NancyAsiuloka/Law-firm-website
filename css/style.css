@@ -347,16 +347,11 @@ nav ul a.active:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1px;
 }
 
 .left-details{
     background: #0A0A0A;
     color: #FEFEFE;
-    width: 45%;
-    margin-left: -25%;
-    margin-bottom: 30px;
-    box-sizing: border-box;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
@@ -364,7 +359,7 @@ nav ul a.active:hover{
     line-height: 28px;
     text-align: center;
     letter-spacing: -0.035em;
-    padding: 30px 20px;
+    padding: 2em 6.5em;
 }
 
 .left-details p{
@@ -381,4 +376,19 @@ nav ul a.active:hover{
 
 .left-details svg{
     background: #FEFEFE;
+    border-radius: 50%;
+}
+
+
+.right-details{
+    background: url(pexels-ketut-subiyanto-4560178.jpg);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    padding: 12em auto;
+}
+
+.right-details img{
+    width: 100%;
+    height: 391px;
+    border-radius: 0px;
+    margin-right: 5em;
 }
