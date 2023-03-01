@@ -397,3 +397,13 @@ nav ul a.active:hover{
     border-radius: 0px;
     margin-right: 5em;
 }
+
+/* Section Content */
+.section-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.section-content
