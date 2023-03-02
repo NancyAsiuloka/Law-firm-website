@@ -436,5 +436,5 @@ nav ul a.active:hover{
 
 .section-content .left-content .check{
     display: flex;
-    
+    justify-content: space-between;
 }
