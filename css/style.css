@@ -583,25 +583,12 @@ footer p{
 
 footer a{
     text-decoration: none;
+    color: #C3C3C3;
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
     letter-spacing: -0.05em;
     margin-bottom: 10px;
-}
-
-footer .install .row img{
-    border: 1px solid #088178;
-    border-radius: 6px;
-}
-
-footer .install img{
-    margin: 10px 0 15px 0;
-}
-
-footer .follow i:hover,
-footer a:hover{
-    color: #088178;
 }
 
 footer .copy{
