@@ -458,15 +458,16 @@ nav ul a.active:hover{
     gap: 1em;
 }
 
-.section-content .right-content img{
+.section-content .right-content img .images1{
     width: 258px;
     height: 200px;
 }
 
-.section-content .right-content img.images1{
+/* .section-content .right-content .images1{
     width: 192px;
     height: 248px;
-}
+    margin-bottom: 10px;
+} */
 
 .section-content .right-content img .images2{
     width: 192px;
