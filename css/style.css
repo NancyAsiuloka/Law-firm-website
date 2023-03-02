@@ -437,4 +437,20 @@ nav ul a.active:hover{
 .section-content .left-content .check{
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
+}
+
+.section-content .left-content .p-check{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.05em;
+    color: #323232;
+    margin-right: 40px;
+}
+
+.section-content .right-content{
+    
 }
