@@ -406,6 +406,22 @@ nav ul a.active:hover{
     padding: 10px;
 }
 
-.section-content{
-    
+.section-content .left-content h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #121212;
+}
+
+.section-content .left-content p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+    color: #616161;
 }
