@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #f60f20;
+    --secondar-color: #1b206e;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -47,7 +52,7 @@ header .logo p span{
     right: 0;
     width: 60px;
     height: 60px;
-    background: #fff url(../images/menu.png);
+    background: var(--primary-color) url(../images/menu.png);
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center;
@@ -56,7 +61,7 @@ header .logo p span{
 }
 
 .toggle.active {
-    background: #fff url(../images/close.png);
+    background: var(--primary-color) url(../images/close.png);
     background-size: 25px;
     background-repeat: no-repeat;
     background-position: center;
