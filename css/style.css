@@ -462,3 +462,33 @@ nav ul a.active:hover{
     width: 258px;
     height: 200px;
 }
+
+.section-content .right-content img.images1{
+    width: 192px;
+    height: 248px;
+}
+
+.section-content .right-content img .images2{
+    width: 192px;
+    height: 216px;
+}
+
+.section-content .right-content .images3{
+    width: 192px;
+    height: 256px;
+}
+
+.section-content .right-content .images4{
+    width: 258px;
+    height: 200px;
+}
+
+.section-content .right-content .images5{
+    width: 126px;
+    height: 216px;
+}
+
+.section-content .right-content .images6{
+    width: 192px;
+    height: 160px;
+}
