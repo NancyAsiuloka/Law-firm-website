@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-
 }
 
 
@@ -129,8 +128,9 @@ nav ul a.active:hover{
     display: flex;
     gap: 8em;
     margin-top: 30px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 20px 70px;
 }
 
 .left-col{
@@ -141,7 +141,6 @@ nav ul a.active:hover{
     font-size: 2.2rem;
     color: #121212;
     font-weight: 900;
-    margin: 0;
     margin-bottom: 5px;
 }
 
