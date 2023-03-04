@@ -550,9 +550,13 @@ footer .logo{
     font-weight: 700;
 }
 
+footer p.house{
+    color: #C3C3C3;
+}
+
 footer .logo p span{
     font-weight: 300;
-    color: #616161;
+    color: #C3C3C3;
 }
 
 footer .clients{
