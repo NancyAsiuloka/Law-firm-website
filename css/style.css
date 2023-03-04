@@ -1,3 +1,8 @@
+*::after,*::before{
+    margin: 0;
+    padding: 0;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -7,9 +12,12 @@
 
 
 .wrapper{
-    max-width: 1400px;
+    max-width: 80%;
     margin: 0 auto;
+}
 
+img{
+    max-width: 100%;
 }
 
 .section-p1 {
@@ -18,13 +26,16 @@
 
 /* Main header */
 header{
-    display: flex;
+    background-color: #010101;
+
+}
+#header{
+    display: flex !important;
     justify-content: space-between;
     align-items: center;
-    background-color: #010101;
 }
 
-header .logo{
+#header .logo{
     display: flex;
     color: #fff;
     align-items: center;
@@ -34,7 +45,7 @@ header .logo{
     font-weight: 700;
 }
 
-header .logo p span{
+#header .logo p span{
     font-weight: 300;
     color: #616161;
 }
@@ -84,10 +95,23 @@ nav ul a.active:hover{
 .header p{
     color: #616161;
     font-size: 1rem;
-    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.header .btn2{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px 32px;
+    color: #010101;
+    margin-top: 24px;
+    display: inline-block;
+    cursor: pointer;
 }
 
 /* Buttons */
+.btn1{
+    padding: 12px 32px !important;
+}
 .btn{
     background-color: #0A0A0A;
     font-size: 16px;
@@ -108,7 +132,7 @@ nav ul a.active:hover{
     margin-top: 30px;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 70px;
+    padding: 20px 0;
 }
 
 .left-col{
@@ -136,7 +160,7 @@ nav ul a.active:hover{
     font-family: 'Dancing Script', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 4.8rem;
+    font-size: 48px;
     line-height: 48px;
 }
 
@@ -155,6 +179,7 @@ nav ul a.active:hover{
 
 .right-col{
     position: relative;
+    padding-bottom: 20px;
 
 }
 
@@ -180,20 +205,22 @@ nav ul a.active:hover{
 }
 
 /* Cards */
-
-.cards{
+#cards{
     background-color: #FFF4F1;
+    padding: 40px 0;
+}
+.cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    height: 100%;
-    margin-top: 20px;
-    padding: 20px;
+    gap: 16px;
     box-sizing: border-box;
-    border: 1px solid #fff;
-    height: 650px;
+    /* height: 650px; */
 }
 
+.cards .arrow{
+    display: flex;
+    justify-content: flex-end;
+}
 .cards .card1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 3;
@@ -220,11 +247,10 @@ nav ul a.active:hover{
 }
 
 .cards .card2, .card3, .card4, .card5{
-    width: 400px;
-    height: 290px;
+    width: 100%;
     background-color: #FCFCFC;
     border-radius: 8px;
-    padding: 30px;
+    padding: 24px 41px 24px ;
     z-index: 10;
 }
 
@@ -254,15 +280,19 @@ nav ul a.active:hover{
     line-height: 30px;
     letter-spacing: -0.035em;
     color: #121212;
+    padding-top: 24px;
 } 
 
 .cards .card3 p{
+    font-family: 'Rubik';
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
     letter-spacing: -0.05em;
     color: #616161;
+    padding-bottom: 32px;
 }
 
 .cards .card4 h2{
@@ -304,41 +334,50 @@ nav ul a.active:hover{
 }
 
 /* Aside */
+.people__cards{
+    padding: 40px 0;
+}
 .aside{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 50px;
     align-items: end;
+    gap: 24px;
 }
 
 .aside .card-details{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.card-images3{
+    position: relative;
     width: 100%;
-    height: 100%;
 }
 
-.card-images1 .card-details h3, p{
+.card-images3 .card-details{
+    position: absolute;
+    bottom: 16px;
+    width: 100%;
+    padding: 0 16px;
+}
+.card-images3 .card-details h3{
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 30px;
     letter-spacing: -0.035em;
     color: #FEFEFE;
-}
 
-.card-images2 .card-details h3, p{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 30px;
-    letter-spacing: -0.035em;
-    color: #FEFEFE;
+}
+.card__img{
+    width: 100%;
 }
 
 /* Text */
 .text {
+    padding: 63px 0;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 800;
@@ -347,7 +386,6 @@ nav ul a.active:hover{
     text-align: center;
     letter-spacing: -0.035em;
     color: #121212;
-    margin-bottom: 30px;
 }
 
 /* Card Card Quotes */
@@ -355,9 +393,11 @@ nav ul a.active:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .left-details{
+    flex: 1;
     background: #0A0A0A;
     color: #FEFEFE;
     font-family: 'Rubik';
@@ -389,9 +429,9 @@ nav ul a.active:hover{
 
 
 .right-details{
+    flex: 1;
     background: url(pexels-ketut-subiyanto-4560178.jpg);
     transform: matrix(-1, 0, 0, 1, 0, 0);
-    padding: 12em auto;
 }
 
 .right-details img{
@@ -406,8 +446,7 @@ nav ul a.active:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    margin-top: 30px;
+    padding: 64px 0;
 }
 
 .section-content .left-content h2{
@@ -466,40 +505,11 @@ nav ul a.active:hover{
 }
 
 .section-content .right-content img{
-    margin: 0;
-    padding: 0;
-    border: 0;
+   width: 100%;
 }
 
-.section-content .right-content .images1{
-    width: 192px;
-    height: 248px;
-}
 
-.section-content .right-content .images2{
-    width: 192px;
-    height: 216px;
-}
 
-.section-content .right-content .images3{
-    width: 192px;
-    height: 256px;
-}
-
-.section-content .right-content .images4{
-    width: 258px;
-    height: 200px;
-}
-
-.section-content .right-content .images5{
-    width: 126px;
-    height: 216px;
-}
-
-.section-content .right-content .images6{
-    width: 192px;
-    height: 160px;
-}
 
 /* Section H2 */
 .text-client h2{
