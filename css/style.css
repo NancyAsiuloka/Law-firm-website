@@ -39,7 +39,6 @@ header{
     display: flex;
     color: #fff;
     align-items: center;
-    margin-left: 50px;
     gap: 1em;
     font-size: 1.5rem;
     font-weight: 700;
@@ -48,6 +47,10 @@ header{
 #header .logo p span{
     font-weight: 300;
     color: #616161;
+}
+
+.toggle {
+    display: none;
 }
 
 /* Nav */
@@ -532,6 +535,9 @@ nav ul a.active:hover{
 }
 
 /* Footer */
+footer{
+    background-color: #0A0A0A;
+}
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -618,4 +624,32 @@ footer .copy{
     line-height: 18px;
     letter-spacing: -0.05em;
     color: #545454;
+}
+
+@media (max-width: 768px) {
+    #header .logo{
+        gap: 0.5em;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    
+    #header .logo p span{
+        font-weight: 300;
+        color: #616161;
+        white-space: nowrap;
+    }
+    .toggle {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60px;
+        height: 60px;
+        margin: 10px 30px;
+        z-index: 20;
+        cursor: pointer;
+    }
+    nav, a{
+        display: none;
+    }
 }
