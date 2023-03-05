@@ -532,7 +532,7 @@ nav ul a.active:hover{
 }
 
 /* Footer */
-footer .flex{
+.flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -540,7 +540,7 @@ footer .flex{
     margin-top: 60px;
 }
 
-footer .logo{
+.flex .logo{
     display: flex;
     color: #fff;
     align-items: center;
@@ -550,11 +550,11 @@ footer .logo{
     font-weight: 700;
 }
 
-footer p.house{
+.flex p.house{
     color: #C3C3C3;
 }
 
-footer .logo p span{
+.flex .logo p span{
     font-weight: 300;
     color: #C3C3C3;
 }
