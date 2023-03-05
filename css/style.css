@@ -532,7 +532,7 @@ nav ul a.active:hover{
 }
 
 /* Footer */
-footer{
+footer .flex{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
