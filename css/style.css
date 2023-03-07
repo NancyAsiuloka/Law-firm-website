@@ -59,6 +59,12 @@ header{
     align-items: center;
 }
 
+#header > div.navigation.active > a{
+    position: relative;
+}
+
+
+
 /* .navigation a{
     flex: 1;
     text-align: right;
@@ -645,11 +651,10 @@ footer .copy{
         margin: 20px 0;
     }
     .toggle {
-        display: block;
+       display: block;
         position: fixed;
         top: 0;
         right: 0;
-        width: 60px;
         height: 60px;
         margin: 20px 40px;
         z-index: 20;
@@ -667,6 +672,15 @@ footer .copy{
         overflow: hidden;
     }
 
+    #header > div.navigation.active > a{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #FCFCFC;
+        color: #0A0A0A;
+    }
+
     .navigation {
         position: fixed;
         top: 0;
@@ -674,7 +688,7 @@ footer .copy{
          width: 100%;
          height: 100%;
          background-color: #0A0A0A;
-         z-index: 5;
+         z-index: 999999;
          display: flex;
          justify-content: flex-start;
          align-items: center;
