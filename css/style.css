@@ -59,10 +59,10 @@ header{
     align-items: center;
 }
 
-.navigation a{
+/* .navigation a{
     flex: 1;
     text-align: right;
-}
+} */
 
 nav{
     margin: 4em;
@@ -662,8 +662,9 @@ footer .copy{
         background-repeat: no-repeat;
         background-position: center;
     }
-    nav, a{
-        display: none;
+    nav{
+        display: block;
+        overflow: hidden;
     }
 
     .navigation {
@@ -675,7 +676,7 @@ footer .copy{
          background-color: #0A0A0A;
          z-index: 5;
          display: flex;
-         justify-content: center;
+         justify-content: flex-start;
          align-items: center;
      }
      
@@ -685,15 +686,18 @@ footer .copy{
      
      .navigation ul{
          position: relative;
+         flex-direction: column;
      }
      
      .navigation ul li{
          position: relative;
+        
          list-style: none;
          text-align: left;
      }
      
      .navigation ul li a{
+        
          font-size: 2.2rem;
          color: #fff;
          text-decoration: none;
