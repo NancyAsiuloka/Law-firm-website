@@ -731,6 +731,7 @@ footer .copy{
 
      body > div > article > div > section{
         display: block;
+        flex-direction: column;
      }
      
 }
