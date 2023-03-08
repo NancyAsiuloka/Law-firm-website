@@ -228,6 +228,10 @@ nav ul a{
     /* height: 650px; */
 }
 
+.cards img{
+    height: 80px;
+}
+
 .cards .arrow{
     display: flex;
     justify-content: flex-end;
@@ -732,6 +736,7 @@ footer .copy{
      body > div > article > div > section{
         display: block;
         flex-direction: column;
+        gap: 3em;
      }
 
      body > div > article > div > section > div.left-col{
@@ -750,5 +755,18 @@ footer .copy{
         padding-top: 10px;
      }
 
+     #cards > div > div{
+        grid-template-columns: 1fr;
+        text-align: center;
+     }
+
+     #cards > div > div > div.card1 > h2{
+        font-size: 30px;
+     }
+
+     #cards > div > div > div.card1 > p{
+        font-size: 30px;
+        line-height: 40px;
+     }
 
 }
