@@ -242,6 +242,10 @@ nav ul a{
     padding-left: 50px;
 }
 
+.cards .card1 a.btn3{
+    border-radius: 8px;
+}
+
 .cards .card1 h2{
     font-family: 'Rubik';
     font-style: normal;
@@ -734,7 +738,6 @@ footer .copy{
      }
 
      body > div > article > div > section{
-        display: block;
         flex-direction: column;
         gap: 3em;
      }
@@ -767,12 +770,12 @@ footer .copy{
      #cards > div > div > div.card1 > p{
         font-size: 30px;
         line-height: 40px;
+        padding-bottom: 15px;
      }
 
-     #cards > div > div > div.card1 > a.btn3{
-        display: inline-block;
-        
-        margin-bottom: 30px;
+     #cards > div > div > div.card1 > a.btn3{ 
+        font-size: 20px;
+        padding: 20px 15px;
      }
 
 }
