@@ -746,7 +746,9 @@ footer .copy{
         padding: 0 0 10px 0;
      }
 
-     body > div > article > div > section > div.left-col > div > span{
-        padding: 0 0 10px 0;
+     body > div > article > div > section > div.left-col > div > h6{
+        padding-top: 10px;
      }
+
+
 }
