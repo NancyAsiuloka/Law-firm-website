@@ -733,5 +733,20 @@ footer .copy{
         display: block;
         flex-direction: column;
      }
+
+     body > div > article > div > section > div.left-col{
+        width: 100%;
+     }
      
+     body > div > article > div > section > div.left-col > div > h3{
+        padding: 0 0 10px 0;
+     }
+
+     body > div > article > div > section > div.left-col > div > p{
+        padding: 0 0 10px 0;
+     }
+
+     body > div > article > div > section > div.left-col > div > span{
+        padding: 0 0 10px 0;
+     }
 }
