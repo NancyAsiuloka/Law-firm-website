@@ -769,4 +769,10 @@ footer .copy{
         line-height: 40px;
      }
 
+     #cards > div > div > div.card1 > a.btn3{
+        display: inline-block;
+        
+        margin-bottom: 30px;
+     }
+
 }
