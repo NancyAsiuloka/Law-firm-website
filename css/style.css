@@ -670,6 +670,10 @@ footer .copy{
         overflow: hidden;
     }
 
+    body > div > section.header{
+        height: 572px;
+    }
+
     #header > div.navigation.active > a{
         position: absolute;
         bottom: 0;
@@ -718,7 +722,15 @@ footer .copy{
 
      body > div > section.header > img{
         width: 70%;
-        height: 200px;
+        height: 240px;
+     }
+
+     body > div > section.header > h2{
+        font-size: 2.5em;
+     }
+
+     body > div > article > div > section{
+        display: block;
      }
      
 }
