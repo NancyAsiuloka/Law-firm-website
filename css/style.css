@@ -763,6 +763,10 @@ footer .copy{
         text-align: center;
      }
 
+     #cards > div > div > div.card1{
+        margin-bottom: 40px;
+     }
+
      #cards > div > div > div.card1 > h2{
         font-size: 30px;
      }
@@ -777,5 +781,20 @@ footer .copy{
         font-size: 20px;
         padding: 20px 15px;
      }
+
+     #cards > div > div > div:nth-child(2) > h2{
+        font-size: 35px;
+        padding-bottom: 10px;
+     }
+
+     #cards > div > div > div:nth-child(2) > p{
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 40px;
+     }
+
+     .cards .arrow{
+        justify-self: center;
+    }
 
 }
