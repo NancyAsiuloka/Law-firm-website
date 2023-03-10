@@ -728,6 +728,7 @@ footer .copy{
          font-weight: 300;
      }
 
+     /* Header Section */
      body > div > section.header > img{
         width: 70%;
         height: 240px;
@@ -742,6 +743,7 @@ footer .copy{
         gap: 3em;
      }
 
+     /* Article Section */
      body > div > article > div > section > div.left-col{
         width: 100%;
      }
@@ -758,6 +760,7 @@ footer .copy{
         padding-top: 10px;
      }
 
+     /* Cards section */
      #cards > div > div{
         grid-template-columns: 1fr;
         text-align: center;
@@ -835,4 +838,46 @@ footer .copy{
         grid-template-columns: 1fr;
     }
 
+    .card-images3 .card-details h3{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .card-images3 .card-details p{
+        font-size: 25px;
+    }
+
+    .card-images3 .card-details img#vector{
+        height: 60px;
+    }
+
+    /* Card Section */
+    .text{
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    body > div > section:nth-child(6) > div.card{
+        flex-direction: column-reverse;
+    }
+
+    body > div > section:nth-child(6) > div.card > div.right-details > img{
+        height: 410px;
+    }
+
+    /* Section-Content */
+    body > div > section:nth-child(7) > div > div{
+        flex-direction: column;
+    }
+
+    body > div > section:nth-child(7) > div > div > div.left-content > h2{
+        font-size: 35px;
+      
+    }
+
+    body > div > section:nth-child(7) > div > div > div.left-content > p{
+        font-size: 25px;
+        margin-left: 0;
+    }
+    
 }
