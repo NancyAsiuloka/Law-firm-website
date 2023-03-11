@@ -878,10 +878,12 @@ footer .copy{
     body > div > section:nth-child(7) > div > div > div.left-content > p{
         font-size: 26px;
         margin-left: 0;
+        padding: 20px 0;
     }
 
     body > div > section:nth-child(7) > div > div > div.left-content > a{
         margin: 0 200px;
     }
+
     
 }
