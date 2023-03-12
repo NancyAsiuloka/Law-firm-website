@@ -879,5 +879,9 @@ footer .copy{
         font-size: 25px;
         margin-left: 0;
     }
+
+    body > div > section:nth-child(7) > div > div > div.left-content > a{
+        margin: 0 200px;
+    }
     
 }
