@@ -225,7 +225,7 @@ nav ul a{
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     box-sizing: border-box;
-    /* height: 72px650px; */
+    /* height: 650px; */
 }
 
 .cards img{
