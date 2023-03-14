@@ -239,6 +239,10 @@ nav ul a{
     height: 72px;
 }
 
+.cards svg{
+    z-index: 10;
+}
+
 .cards .arrow{
     display: flex;
     justify-content: flex-end;
