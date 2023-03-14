@@ -232,6 +232,11 @@ nav ul a{
     height: 80px;
 }
 
+.cards .circle{
+    background-color: #FFEEF5;
+
+}
+
 .cards .arrow{
     display: flex;
     justify-content: flex-end;
