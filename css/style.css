@@ -396,8 +396,8 @@ nav ul a{
 
 .card-images3 .card-details #expert h3{
     text-align: center;
-    padding: 50px;
-    font-size: 20px;
+    /* padding: 80px; */
+    font-size: 50px;
     color: #000;
     z-index: 10;
 }
