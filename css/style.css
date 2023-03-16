@@ -392,7 +392,7 @@ nav ul a{
 
 .card-images3 .card-details #expert{
     position: absolute;
-    top: 10;
+    top: -10;
     bottom: 0;
 
 }
