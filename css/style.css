@@ -390,6 +390,12 @@ nav ul a{
     color: #FEFEFE;
 }
 
+.card-images3 .card-details #expert{
+    text-align: center;
+    font-size: 20px;
+
+}
+
 .card__img{
     width: 100%;
 }
