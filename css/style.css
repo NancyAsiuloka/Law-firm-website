@@ -88,6 +88,7 @@ nav ul a{
     display: block;
     text-align: center;
     background-color: #010101;
+    padding-bottom: 40px;
 }
 
 .header img{
@@ -102,7 +103,7 @@ nav ul a{
 .header p{
     color: #616161;
     font-size: 13px;
-    padding-top: 10px;
+    padding: 20px 0;
 }
 
 .header .btn2{
