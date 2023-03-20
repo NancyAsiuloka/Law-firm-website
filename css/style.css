@@ -139,7 +139,7 @@ nav ul a{
     margin-top: 30px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .left-col{
@@ -154,7 +154,7 @@ nav ul a{
 
 .details p{
     font-family: 'Rubik';
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     color: #616161;
     letter-spacing: -3%;
