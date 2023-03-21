@@ -763,6 +763,9 @@ footer .copy{
      }
 
      /* Article Section */
+     .main-section{
+        gap: 1em;
+    }
      body > div > article > div > section > div.left-col{
         width: 100%;
      }
