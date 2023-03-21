@@ -135,7 +135,7 @@ nav ul a{
 /* Main Section */
 .main-section{
     display: flex;
-    gap: 8em;
+    gap: 5em;
     margin-top: 30px;
     justify-content: space-between;
     align-items: center;
