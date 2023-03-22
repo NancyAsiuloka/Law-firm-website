@@ -143,11 +143,11 @@ nav ul a{
 }
 
 .left-col{
-    width: 45%;
+    /* width: 45%; */
 }
 
 .details h3{
-    font-size: 2rem;
+    font-size: 24px;
     color: #121212;
     font-weight: 900;
     padding-bottom: 10px;
