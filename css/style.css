@@ -762,7 +762,7 @@ footer .copy{
         gap: 1em;
     }
      body > div > article > div > section > div.left-col{
-        width: 100%;
+        /* width: 100%; */
      }
 
      body > div > article > div > section > div.left-col > div > h3{
