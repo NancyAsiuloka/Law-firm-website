@@ -761,9 +761,7 @@ footer .copy{
      .main-section{
         gap: 1em;
     }
-     body > div > article > div > section > div.left-col{
-        /* width: 100%; */
-     }
+
 
      body > div > article > div > section > div.left-col > div > h3{
         padding-bottom: 10px;
