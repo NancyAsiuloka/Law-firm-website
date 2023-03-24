@@ -761,15 +761,17 @@ footer .copy{
      .main-section{
         gap: 1em;
     }
-
+     body > div > article > div > section > div.left-col{
+        width: 100%;
+     }
 
      body > div > article > div > section > div.left-col > div > h3{
         padding-bottom: 10px;
      }
 
-     /* .details p{
-        font-size: 12px;
-     } */
+     body > div > article > div > section > div.left-col > div > p{
+        padding-bottom: 10px;
+     }
 
      body > div > article > div > section > div.left-col > div > h6{
         padding-top: 10px;
