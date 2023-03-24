@@ -771,15 +771,13 @@ footer .copy{
 
      body > div > article > div > section > div.left-col > div > p{
         font-size: 16px;
+
      }
 
      body > div > article > div > section > div.left-col > div > h6{
         padding-top: 10px;
      }
 
-     body > div > article > div > section > div.right-col > div > img{
-        margin-right: 80px;
-     }
 
      /* Cards section */
      #cards > div > div{
