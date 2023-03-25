@@ -40,7 +40,7 @@ header{
     color: #fff;
     align-items: center;
     gap: 1em;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -84,7 +84,7 @@ nav ul{
 nav ul a{
     text-decoration: none;
     color: #FEFEFE;
-    font-size: 1.4rem;
+    font-size: 18px;
 }
 
 
@@ -115,7 +115,7 @@ nav ul a{
     border-radius: 8px;
     padding: 20px 32px;
     color: #010101;
-    margin-top: 24px;
+
     display: inline-block;
     cursor: pointer;
 }
@@ -147,7 +147,7 @@ nav ul a{
 }
 
 .left-col{
-    width: 45%; 
+    width: 45%;
 }
 
 .details h3{
@@ -281,7 +281,7 @@ nav ul a{
     line-height: 30px;
     letter-spacing: -0.035em;
     color: #121212;
-} 
+}
 
 .cards .card2 p{
     font-style: normal;
@@ -300,7 +300,7 @@ nav ul a{
     letter-spacing: -0.035em;
     color: #121212;
     padding-top: 24px;
-} 
+}
 
 .cards .card3 p{
     font-family: 'Rubik';
@@ -322,7 +322,7 @@ nav ul a{
     line-height: 30px;
     letter-spacing: -0.035em;
     color: #121212;
-} 
+}
 
 .cards .card4 p{
     font-style: normal;
@@ -341,7 +341,7 @@ nav ul a{
     line-height: 30px;
     letter-spacing: -0.035em;
     color: #121212;
-} 
+}
 
 .cards .card5 p{
     font-style: normal;
@@ -660,7 +660,7 @@ footer .copy{
         font-weight: 700;
         margin: 20px 40px;
     }
-    
+
     #header .logo p span{
         font-weight: 300;
         color: #616161;
@@ -714,25 +714,25 @@ footer .copy{
          justify-content: flex-start;
          align-items: center;
      }
-     
+
      .navigation.active{
          left: 0;
      }
-     
+
      .navigation ul{
          position: relative;
          flex-direction: column;
      }
-     
+
      .navigation ul li{
          position: relative;
-        
+
          list-style: none;
          text-align: left;
      }
-     
+
      .navigation ul li a{
-        
+
          font-size: 2.2rem;
          color: #fff;
          text-decoration: none;
@@ -758,7 +758,7 @@ footer .copy{
      body > div > article > div > section > div.left-col{
         width: 100%;
      }
-     
+
      body > div > article > div > section > div.left-col > div > h3{
         padding: 0 0 10px 0;
      }
@@ -791,7 +791,7 @@ footer .copy{
         padding-bottom: 15px;
      }
 
-     #cards > div > div > div.card1 > a.btn3{ 
+     #cards > div > div > div.card1 > a.btn3{
         font-size: 20px;
         padding: 20px 15px;
      }
@@ -883,7 +883,7 @@ footer .copy{
 
     body > div > section:nth-child(7) > div > div > div.left-content > h2{
         font-size: 35px;
-      
+
     }
 
     body > div > section:nth-child(7) > div > div > div.left-content > p{
@@ -897,5 +897,5 @@ footer .copy{
         padding: 20px 50px;
     }
 
-    
+
 }
