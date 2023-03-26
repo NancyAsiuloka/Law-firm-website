@@ -804,8 +804,9 @@ footer .copy{
         padding-bottom: 20px;
      }
 
-     body > div > article > div > section > div.right-col
-
+     #vector{
+        display: none;
+     }
      #cards > div > div > div.card1 > a.btn3{
         font-size: 20px;
         padding: 20px 15px;
