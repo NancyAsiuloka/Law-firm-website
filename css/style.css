@@ -808,7 +808,7 @@ footer .copy{
         display: none;
      }
 
-     #expert #vector{
+    .card-details #expert #vector{
         z-index: -9999;
      }
      #cards > div > div > div.card1 > a.btn3{
