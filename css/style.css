@@ -804,6 +804,10 @@ footer .copy{
         padding-bottom: 20px;
      }
 
+     #expert{
+        display: none;
+     }
+
      #vector{
         display: none;
      }
