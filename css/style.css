@@ -808,8 +808,8 @@ footer .copy{
         display: none;
      }
 
-     #vector{
-        /* display: none; */
+     #expert #vector{
+        display: none;
      }
      #cards > div > div > div.card1 > a.btn3{
         font-size: 20px;
