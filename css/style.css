@@ -804,7 +804,7 @@ footer .copy{
         padding-bottom: 20px;
      }
 
-     #expert{
+     .card-details #expert{
         display: none;
      }
 
