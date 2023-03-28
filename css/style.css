@@ -808,7 +808,7 @@ footer .copy{
         display: none;
      }
 
-    .card-details #expert img#vector{
+    .card-details #expert img #vector{
        display: none;
      }
      #cards > div > div > div.card1 > a.btn3{
