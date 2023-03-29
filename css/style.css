@@ -802,6 +802,8 @@ footer .copy{
      #cards > div > div > div.card1 > a.btn3{
         font-size: 20px;
         padding: 20px 15px;
+        display: block;
+        margin-right: 200px;
      }
 
      #cards > div > div > div:nth-child(2) > h2{
