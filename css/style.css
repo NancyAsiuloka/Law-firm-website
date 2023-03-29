@@ -768,6 +768,11 @@ footer .copy{
         padding-bottom: 10px;
      }
 
+     body > div > article > div > section > div.right-col{
+        display: block;
+
+     }
+
      body > div > article > div > section > div.left-col > div > p{
         font-size: 16px;
 
@@ -799,11 +804,11 @@ footer .copy{
         padding-bottom: 20px;
      }
 
+     body > div > article > div > section > div.right-col
+
      #cards > div > div > div.card1 > a.btn3{
         font-size: 20px;
         padding: 20px 15px;
-        display: block;
-        margin-right: 200px;
      }
 
      #cards > div > div > div:nth-child(2) > h2{
