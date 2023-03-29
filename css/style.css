@@ -770,7 +770,7 @@ footer .copy{
 
      body > div > article > div > section > div.right-col{
         display: block;
-        margin-right: 200px;
+        width: 100%;
      }
 
      body > div > article > div > section > div.left-col > div > p{
