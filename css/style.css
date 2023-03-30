@@ -381,8 +381,7 @@ nav ul a{
 }
 
 .card-images3 .card-details #expert{
-    padding: 0 0 0 0;
-    text-align: center;
+    padding: auto 50px;
 }
 
 .card-images3 .card-details #expert h3{
