@@ -388,7 +388,7 @@ nav ul a{
     text-align: center;
     font-size: 30px;
     font-weight: 400;
-    padding: 20px ;
+    padding: 20px 0;
     color: #000;
     z-index: 10;
 }
