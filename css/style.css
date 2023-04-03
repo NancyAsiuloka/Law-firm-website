@@ -393,6 +393,10 @@ nav ul a{
     z-index: 10;
 }
 
+.card-images3 .card-details #expert p{
+    text-align: center;
+}
+
 .card__img{
     width: 100%;
 }
