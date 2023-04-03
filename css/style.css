@@ -397,7 +397,8 @@ nav ul a{
     text-align: center;
 }
 .card-images3 .card-details img#vector {
-    z-index: -9999;
+    z-index: 9999999;
+    display: flex;
 }
 
 .card__img{
