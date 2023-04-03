@@ -396,8 +396,8 @@ nav ul a{
 .card-images3 .card-details #expert p{
     text-align: center;
 }
-.card-images3 .card-details #expert h3{
-
+.card-images3 .card-details img#vector {
+    z-index: 9999;
 }
 
 .card__img{
