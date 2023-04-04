@@ -8,7 +8,6 @@ toggle.addEventListener("click", () => {
 });
 
 
-
 function add(a, b) {
   return a + b;
 }
