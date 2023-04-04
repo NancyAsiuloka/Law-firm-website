@@ -7,6 +7,8 @@ toggle.addEventListener("click", () => {
   navigation.classList.toggle("active");
 });
 
+if (toggle === "active") return true
+
 function add(a, b) {
   return a + b;
 }
