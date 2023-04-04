@@ -398,7 +398,7 @@ nav ul a{
 }
 .card-images3 .card-details img#vector {
     z-index: 9999999;
-    display: flex;
+    display: block;
     justify-content: flex-end;
 }
 
